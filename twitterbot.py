@@ -5,13 +5,12 @@ import numpy as np
 import pandas as pd
 from math import cos, asin, sqrt
 
-#write some code to return if the function comes back with an error!
-#I should probably import all these keys and filepaths from a seperate file for security purposes
+#The next four variables are all spceific to each twitter users account, and you can generate these codes for your account at developer.twitter.com
 
-CONSUMER_KEY = 'dMfTVtheEUamuD0dI5jDDrqp8'
-CONSUMER_SECRET = 'S9G2j5tjtWLB5nvk6yEaBLclzCJZiLBdpRyhNU8TffefU6As8A'
-ACCESS_KEY = '1720746324-B40vJrvMUXbdyDDak6J2mGEO8jskf2r9GhIMg7g'
-ACCESS_SECRET = 'wCwOd8eY5bYXRSl1BN7sWmFuVIIeVJDYSNI9ByGGOM49f'
+CONSUMER_KEY = '######'
+CONSUMER_SECRET = '#####'
+ACCESS_KEY = '#####'
+ACCESS_SECRET = '######'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
